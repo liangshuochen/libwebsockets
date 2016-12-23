@@ -1,0 +1,13 @@
+/Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/test-server-pthreads.dir
+/Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/install.dir
+/Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/test-fraggle.dir
+/Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/test-server-extpoll.dir
+/Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/websockets.dir
+/Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/test-echo.dir
+/Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/test-ping.dir
+/Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/package.dir
+/Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/test-client.dir
+/Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/test-server.dir
+/Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/dist.dir
+/Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/ALL_BUILD.dir
+/Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/ZERO_CHECK.dir

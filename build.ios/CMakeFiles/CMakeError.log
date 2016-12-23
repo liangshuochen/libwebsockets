@@ -1,0 +1,644 @@
+Performing C SOURCE FILE Test LWS_HAVE_inline failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_60f72" "-configuration" "Debug"
+2016-12-23 17:05:21.711 xcodebuild[20752:2342671] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x10F0FF000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x10F0FF000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_60f72 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+
+		#include <stdio.h>
+		static KEYWORD void a() {}
+		int main(int argc, char **argv) { a(); return 0; }
+		
+Performing C SOURCE FILE Test LWS_HAVE___inline__ failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_0ef08" "-configuration" "Debug"
+2016-12-23 17:05:22.849 xcodebuild[20771:2342765] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x115A47000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x115A47000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_0ef08 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+
+		#include <stdio.h>
+		static KEYWORD void a() {}
+		int main(int argc, char **argv) { a(); return 0; }
+		
+Performing C SOURCE FILE Test LWS_HAVE___inline failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_13783" "-configuration" "Debug"
+2016-12-23 17:05:23.576 xcodebuild[20784:2342809] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x110AAE000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x110AAE000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_13783 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+
+		#include <stdio.h>
+		static KEYWORD void a() {}
+		int main(int argc, char **argv) { a(); return 0; }
+		
+Determining if the function bzero exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_b34a5" "-configuration" "Debug"
+2016-12-23 17:05:24.304 xcodebuild[20797:2342854] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11BD79000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11BD79000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_b34a5 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the function fork exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_a8e23" "-configuration" "Debug"
+2016-12-23 17:05:25.027 xcodebuild[20810:2342899] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x1102FA000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x1102FA000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_a8e23 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the function getenv exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_f89cc" "-configuration" "Debug"
+2016-12-23 17:05:25.770 xcodebuild[20823:2342942] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11B951000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11B951000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_f89cc OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the function malloc exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_9da0e" "-configuration" "Debug"
+2016-12-23 17:05:26.519 xcodebuild[20836:2342987] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11A5FB000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11A5FB000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_9da0e OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the function memset exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_72b48" "-configuration" "Debug"
+2016-12-23 17:05:27.253 xcodebuild[20849:2343032] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x1119AB000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x1119AB000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_72b48 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the function realloc exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_140ba" "-configuration" "Debug"
+2016-12-23 17:05:27.994 xcodebuild[20862:2343076] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11ACB8000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11ACB8000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_140ba OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the function socket exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_56218" "-configuration" "Debug"
+2016-12-23 17:05:28.758 xcodebuild[20875:2343123] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x10F075000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x10F075000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_56218 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the function strerror exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_6f989" "-configuration" "Debug"
+2016-12-23 17:05:29.511 xcodebuild[20888:2343165] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11CE2D000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11CE2D000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_6f989 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the function vfork exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_c03ad" "-configuration" "Debug"
+2016-12-23 17:05:30.277 xcodebuild[20901:2343208] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x119765000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x119765000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_c03ad OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the function getifaddrs exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_9a0ca" "-configuration" "Debug"
+2016-12-23 17:05:31.050 xcodebuild[20914:2343254] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11A847000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11A847000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_9a0ca OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_9cb68" "-configuration" "Debug"
+2016-12-23 17:05:31.808 xcodebuild[20927:2343305] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11533E000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11533E000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_9cb68 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file fcntl.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_ea8e8" "-configuration" "Debug"
+2016-12-23 17:05:32.585 xcodebuild[20940:2343348] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11656D000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11656D000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_ea8e8 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file in6addr.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_6e36e" "-configuration" "Debug"
+2016-12-23 17:05:33.325 xcodebuild[20953:2343391] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x112258000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x112258000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_6e36e OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file inttypes.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_81dff" "-configuration" "Debug"
+2016-12-23 17:05:34.062 xcodebuild[20966:2343433] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x110E60000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x110E60000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_81dff OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file memory.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_d2446" "-configuration" "Debug"
+2016-12-23 17:05:34.812 xcodebuild[20979:2343476] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x119650000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x119650000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_d2446 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file netinet/in.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_68275" "-configuration" "Debug"
+2016-12-23 17:05:35.572 xcodebuild[20992:2343533] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x10E707000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x10E707000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_68275 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file stdint.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_1d1f1" "-configuration" "Debug"
+2016-12-23 17:05:36.327 xcodebuild[21005:2343573] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11BB45000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11BB45000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_1d1f1 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file stdlib.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_c944c" "-configuration" "Debug"
+2016-12-23 17:05:37.067 xcodebuild[21018:2343617] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x1194B6000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x1194B6000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_c944c OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_01fc6" "-configuration" "Debug"
+2016-12-23 17:05:37.829 xcodebuild[21031:2343657] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11B6D7000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11B6D7000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_01fc6 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file string.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_f6db3" "-configuration" "Debug"
+2016-12-23 17:05:38.574 xcodebuild[21044:2343701] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11C0C9000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11C0C9000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_f6db3 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file sys/prctl.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_4d58b" "-configuration" "Debug"
+2016-12-23 17:05:39.332 xcodebuild[21057:2343742] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11242D000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11242D000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_4d58b OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file sys/socket.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_51cd0" "-configuration" "Debug"
+2016-12-23 17:05:40.087 xcodebuild[21070:2343787] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x10FFA4000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x10FFA4000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_51cd0 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file sys/stat.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_50dc9" "-configuration" "Debug"
+2016-12-23 17:05:40.815 xcodebuild[21083:2343827] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11119B000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x11119B000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_50dc9 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file sys/types.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_8cd92" "-configuration" "Debug"
+2016-12-23 17:05:41.584 xcodebuild[21096:2343870] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x1151C0000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x1151C0000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_8cd92 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_9b88b" "-configuration" "Debug"
+2016-12-23 17:05:42.369 xcodebuild[21109:2343912] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x116FEA000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x116FEA000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_9b88b OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file vfork.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_dc514" "-configuration" "Debug"
+2016-12-23 17:05:43.106 xcodebuild[21122:2343955] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x10EFAB000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x10EFAB000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_dc514 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file zlib.h exists failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_3fcee" "-configuration" "Debug"
+2016-12-23 17:05:43.878 xcodebuild[21135:2343999] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x117647000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x117647000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_3fcee OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist failed with the following output:
+Change Dir: /Volumes/MacintoshHD/Documents/work/otherTest/libwebsockets-1.6.1/iosbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_6f9a1" "-configuration" "Debug"
+2016-12-23 17:05:44.626 xcodebuild[21148:2344040] WARNING: Failed to load plugin at path: "/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin", skipping. Error: Error Domain=NSCocoaErrorDomain Code=3587 "dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x111FD1000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim" UserInfo={NSLocalizedFailureReason=The bundle is damaged or missing necessary resources., NSLocalizedRecoverySuggestion=Try reinstalling the bundle., NSFilePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSDebugDescription=dlopen_preflight(/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim): no suitable image found.  Did find:
+	/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim: mmap() error 1 at address=0x111FD1000, size=0x0009E000 segment=__TEXT in Segment::map() mapping /Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin/Contents/MacOS/XVim, NSBundlePath=/Users/liangshuochen/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XVim.xcplugin, NSLocalizedDescription=The bundle “XVim” couldn’t be loaded because it is damaged or missing necessary resources.}
+=== BUILD TARGET cmTC_6f9a1 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source:
+/* */
+#include <stdlib.h>
+#include <stdarg.h>
+#include <string.h>
+#include <float.h>
+
+
+int main(void){return 0;}
+

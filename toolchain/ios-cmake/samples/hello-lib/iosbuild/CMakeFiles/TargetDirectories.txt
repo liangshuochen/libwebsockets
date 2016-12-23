@@ -1,0 +1,4 @@
+/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild/CMakeFiles/install.dir
+/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild/CMakeFiles/hello-lib.dir
+/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild/CMakeFiles/ALL_BUILD.dir
+/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild/CMakeFiles/ZERO_CHECK.dir

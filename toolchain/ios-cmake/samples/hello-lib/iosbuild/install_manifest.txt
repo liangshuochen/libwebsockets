@@ -1,0 +1,3 @@
+/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/../hello-app/./libhello-lib.a
+/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/../hello-app/./HelloWorld.h
+/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/../hello-app/./HelloIOS.h

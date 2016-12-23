@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		062629A2CF39459D8A65FBAA /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A391E1FFE32A4165BA2F4414 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				E68FE775385B49D8A5364232 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		61C5F41FA747485F91B9B996 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9ACC707525384E6EB5A10539 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				E0CA3817429A4CF88AFF7E2D /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				3E91B043AB8E4DBAA244A22F /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		A0E970E40012408982AF0526 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8997BACC9A2841D1A13B56C8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				182331333338418988E2855E /* CMake Rules */,
+			);
+			dependencies = (
+				B6C37083956949EF8CBD74E2 /* PBXTargetDependency */,
+				595D41B6047A4E90A7719E55 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0E1D7207AF044888A3BC1312 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5948541F2EAA4D27AAEF6C6F /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		31879898E58847DD8B7DC4D6 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloWorld.h */ = {isa = PBXBuildFile; fileRef = 7DC163C6C9FD435D9BEEAA7A /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloWorld.h */; settings = {COMPILER_FLAGS = ""; }; };
+		55AC0AEACD014ABBB74705FF /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloIOS.h */ = {isa = PBXBuildFile; fileRef = B4650A9DFCA042C2B903BC42 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloIOS.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8E975292350E4C129FF320B4 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloIOS.mm */ = {isa = PBXBuildFile; fileRef = F047200CEE344A1A85ED3C98 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloIOS.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		F0D2DC6724EF47DB8E66B2F3 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloWorld.cpp */ = {isa = PBXBuildFile; fileRef = 84FD2C77690842F593395367 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloWorld.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		120679EA6A9E42DAAD41B0D3 = {
+			isa = PBXBuildStyle;
+		};
+		57524914C2DB420AB271ED20 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		721CB9BDE3E14B9994547DF1 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		DF9FD877D7554C6FA3D01B10 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E76F7FE183A246E1B2D13CFA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		147AB8F8E573439BB044C957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FAE0F08E1745C8827AF261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062629A2CF39459D8A65FBAA;
+			remoteInfo = ZERO_CHECK;
+		};
+		4B8FBE263B5C42E6A7941541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FAE0F08E1745C8827AF261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062629A2CF39459D8A65FBAA;
+			remoteInfo = ZERO_CHECK;
+		};
+		4C64F457B30640EB8A53EB51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FAE0F08E1745C8827AF261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98F44C3E46A4E949768DF9C;
+			remoteInfo = "hello-lib";
+		};
+		5DF2F74EF0974C899DFAA938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FAE0F08E1745C8827AF261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0E970E40012408982AF0526;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17E7CFF2E5D54386BEB195D1 /* hello-lib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libhello-lib.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		5948541F2EAA4D27AAEF6C6F /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7DC163C6C9FD435D9BEEAA7A /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloWorld.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HelloWorld.h; path = HelloWorld.h; sourceTree = SOURCE_ROOT; };
+		84FD2C77690842F593395367 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloWorld.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HelloWorld.cpp; path = HelloWorld.cpp; sourceTree = SOURCE_ROOT; };
+		B4650A9DFCA042C2B903BC42 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloIOS.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HelloIOS.h; path = HelloIOS.h; sourceTree = SOURCE_ROOT; };
+		DE742DF841CC40FBA34F67C6 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E4D4DAA013EF4D6891E6E4F2 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F047200CEE344A1A85ED3C98 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloIOS.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = HelloIOS.mm; path = HelloIOS.mm; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		21F89CA502DA485AAE30BC40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17E7CFF2E5D54386BEB195D1 /* hello-lib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E1A6D286FD746CA956398AA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D36CA38030D54599B4FF0F7B /* hello-lib */,
+				DACA6FC7D1154CC98FA9AAA7 /* ALL_BUILD */,
+				9FCE67AACC8447468FD68E20 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		3C0BC01F798D44D98DDF4101 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F047200CEE344A1A85ED3C98 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloIOS.mm */,
+				84FD2C77690842F593395367 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloWorld.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		570E915B28B947CD8B6B65B9 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4650A9DFCA042C2B903BC42 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloIOS.h */,
+				7DC163C6C9FD435D9BEEAA7A /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloWorld.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		9A212E79475A41F6AFD46325 = {
+			isa = PBXGroup;
+			children = (
+				2E1A6D286FD746CA956398AA /* Sources */,
+				D985A171307648F9B0431366 /* Resources */,
+				21F89CA502DA485AAE30BC40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FCE67AACC8447468FD68E20 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				F9FE0EC830C24385B54EDF9A /* CMake Rules */,
+				DE742DF841CC40FBA34F67C6 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		C88BC3A71D854D2DBBF025C4 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D36CA38030D54599B4FF0F7B /* hello-lib */ = {
+			isa = PBXGroup;
+			children = (
+				3C0BC01F798D44D98DDF4101 /* Source Files */,
+				570E915B28B947CD8B6B65B9 /* Header Files */,
+				5948541F2EAA4D27AAEF6C6F /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/CMakeLists.txt */,
+			);
+			name = "hello-lib";
+			sourceTree = "<group>";
+		};
+		D985A171307648F9B0431366 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DACA6FC7D1154CC98FA9AAA7 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C88BC3A71D854D2DBBF025C4 /* CMake Rules */,
+				E4D4DAA013EF4D6891E6E4F2 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F9FE0EC830C24385B54EDF9A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A98F44C3E46A4E949768DF9C /* hello-lib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8C8435829364980932AD63A /* Build configuration list for PBXNativeTarget "hello-lib" */;
+			buildPhases = (
+				523DA1D3906347DCAEA9A087 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F55F880A9AB43A48637DE9D /* PBXTargetDependency */,
+			);
+			name = "hello-lib";
+			productName = "hello-lib";
+			productReference = 17E7CFF2E5D54386BEB195D1 /* hello-lib */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1FAE0F08E1745C8827AF261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0820;
+			};
+			buildConfigurationList = 0E9D5D61D02F4A678DA50B14 /* Build configuration list for PBXProject "hello-lib" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				57524914C2DB420AB271ED20 /* Debug */,
+				E76F7FE183A246E1B2D13CFA /* Release */,
+				721CB9BDE3E14B9994547DF1 /* MinSizeRel */,
+				DF9FD877D7554C6FA3D01B10 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9A212E79475A41F6AFD46325;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				A0E970E40012408982AF0526 /* ALL_BUILD */,
+				062629A2CF39459D8A65FBAA /* ZERO_CHECK */,
+				A98F44C3E46A4E949768DF9C /* hello-lib */,
+				61C5F41FA747485F91B9B996 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		182331333338418988E2855E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild -f /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		37C4C1DDEB0E4C4895731589 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A52D9E7FE336439286320D9F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D34756AE19AB49DBA68EE080 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E0CA3817429A4CF88AFF7E2D /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild -f /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E68FE775385B49D8A5364232 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild -f /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		523DA1D3906347DCAEA9A087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E975292350E4C129FF320B4 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloIOS.mm */,
+				F0D2DC6724EF47DB8E66B2F3 /* /Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/HelloWorld.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E91B043AB8E4DBAA244A22F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0E970E40012408982AF0526 /* ALL_BUILD */;
+			targetProxy = 5DF2F74EF0974C899DFAA938 /* PBXContainerItemProxy */;
+		};
+		595D41B6047A4E90A7719E55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 062629A2CF39459D8A65FBAA /* ZERO_CHECK */;
+			targetProxy = 147AB8F8E573439BB044C957 /* PBXContainerItemProxy */;
+		};
+		7F55F880A9AB43A48637DE9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 062629A2CF39459D8A65FBAA /* ZERO_CHECK */;
+			targetProxy = 4B8FBE263B5C42E6A7941541 /* PBXContainerItemProxy */;
+		};
+		B6C37083956949EF8CBD74E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A98F44C3E46A4E949768DF9C /* hello-lib */;
+			targetProxy = 4C64F457B30640EB8A53EB51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		017A9CA624F5424FA8AB9133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild/build";
+			};
+			name = Release;
+		};
+		106A50F33B624A9F9EED3FB3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib", );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		3134E551C9FC411D99E3704D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "hello-lib";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		454E093093304A7A9660254F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		55CB0E1766874CA48D28473F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		58C49A6CC3534D56B60E6F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "hello-lib";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		73F8B3C0AE7F4A94AD42346E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib", );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		8766208C13A4465083159FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		90E8653006BF46309AB2501A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild/build";
+			};
+			name = RelWithDebInfo;
+		};
+		9D88EDF76787481B83C0CFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "hello-lib";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		AC774FF9D19D4035AEE65473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		B28ADC40B31E49C9ACBE3795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild/build";
+			};
+			name = Debug;
+		};
+		B6FCF5A64D084A10AFBF9D1D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild/build";
+			};
+			name = MinSizeRel;
+		};
+		BA11551C61F04A828E2FC21B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		C56F336FCB334D328B1FB667 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		DFA6A6A9FF474FBA94D75124 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "hello-lib";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		DFDEC405891F45DCB6A726C0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		E6CFD112616F4CFE9872DA55 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		F00202F1D22C419FBFFABADC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib", );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		FDD2AA2C3A63487FA1120469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib", );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/MacintoshHD/Documents/work/otherTest/toolchain/ios-cmake/samples/hello-lib/iosbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E9D5D61D02F4A678DA50B14 /* Build configuration list for PBXProject "hello-lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28ADC40B31E49C9ACBE3795 /* Debug */,
+				017A9CA624F5424FA8AB9133 /* Release */,
+				B6FCF5A64D084A10AFBF9D1D /* MinSizeRel */,
+				90E8653006BF46309AB2501A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8997BACC9A2841D1A13B56C8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC774FF9D19D4035AEE65473 /* Debug */,
+				454E093093304A7A9660254F /* Release */,
+				C56F336FCB334D328B1FB667 /* MinSizeRel */,
+				E6CFD112616F4CFE9872DA55 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9ACC707525384E6EB5A10539 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD2AA2C3A63487FA1120469 /* Debug */,
+				73F8B3C0AE7F4A94AD42346E /* Release */,
+				F00202F1D22C419FBFFABADC /* MinSizeRel */,
+				106A50F33B624A9F9EED3FB3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A391E1FFE32A4165BA2F4414 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CB0E1766874CA48D28473F /* Debug */,
+				8766208C13A4465083159FA0 /* Release */,
+				DFDEC405891F45DCB6A726C0 /* MinSizeRel */,
+				BA11551C61F04A828E2FC21B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E8C8435829364980932AD63A /* Build configuration list for PBXNativeTarget "hello-lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C49A6CC3534D56B60E6F15 /* Debug */,
+				9D88EDF76787481B83C0CFFD /* Release */,
+				3134E551C9FC411D99E3704D /* MinSizeRel */,
+				DFA6A6A9FF474FBA94D75124 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1FAE0F08E1745C8827AF261 /* Project object */;
+}
